@@ -1,0 +1,4 @@
+# SPDX-FileCopyrightText: 2017 Scott Shawcroft, written for Adafruit Industries
+# SPDX-FileCopyrightText: Copyright (c) 2021 Electronic Cats for Electronic Cats
+#
+# SPDX-License-Identifier: Unlicense
