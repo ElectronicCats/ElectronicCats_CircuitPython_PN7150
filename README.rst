@@ -1,6 +1,4 @@
 ElectronicCats_CircuitPython_PN7150
-
-Introduction
 ============
 
 
@@ -32,18 +30,6 @@ This driver depends on:
 
 * `Adafruit CircuitPython <https://github.com/adafruit/circuitpython>`_
 * `Bus Device <https://github.com/adafruit/Adafruit_CircuitPython_BusDevice>`_
-
-Please ensure all dependencies are available on the CircuitPython filesystem.
-This is easily achieved by downloading
-`the Adafruit library and driver bundle <https://circuitpython.org/libraries>`_
-or individual libraries can be installed using
-`circup <https://github.com/adafruit/circup>`_.
-
-.. todo:: Describe the Adafruit product this library works with. For PCBs, you can also add the
-image fromn the assets folder in the PCB's gihub repo.
-
-`Purchase one from the Adafruit shop <http://www.adafruit.com/products/>`_
-
 
 Installing from PyPI
 =====================
@@ -80,8 +66,12 @@ To install in a virtual environment in your current project:
 Usage Example
 =============
 
-.. todo:: Add a quick, simple example. It and other examples should live in the
-examples folder and be included in docs/examples.rst.
+This example demonstrates the library with the single built-in NeoPixel on the
+`Feather M0 Express <https://www.adafruit.com/product/3403>`_ and
+`Metro M0 Express <https://www.adafruit.com/product/3505>`_.
+
+.. code-block:: python
+
 
 Contributing
 ============
