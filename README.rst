@@ -7,11 +7,6 @@ ElectronicCats_CircuitPython_PN7150
     :alt: Documentation Status
 
 
-.. image:: https://img.shields.io/discord/327254708534116352.svg
-    :target: https://adafru.it/discord
-    :alt: Discord
-
-
 .. image:: https://github.com/ElectronicCats/Electroniccats_CircuitPython_PN7150/workflows/Build%20CI/badge.svg
     :target: https://github.com/ElectronicCats/Electroniccats_CircuitPython_PN7150/actions
     :alt: Build Status
@@ -21,7 +16,7 @@ ElectronicCats_CircuitPython_PN7150
     :target: https://github.com/psf/black
     :alt: Code Style: Black
 
-library for SPI and I2C access to the PN7150 RFID/Near Field Communication chip
+library for I2C access to the PN7150 RFID/Near Field Communication chip
 
 
 Dependencies
@@ -39,18 +34,18 @@ Installing from PyPI
 .. todo:: Remove the above note if PyPI version is/will be available at time of release.
 
 On supported GNU/Linux systems like the Raspberry Pi, you can install the driver locally `from
-PyPI <https://pypi.org/project/adafruit-circuitpython-pn7150/>`_.
+PyPI <https://pypi.org/project/electroniccats-circuitpython-pn7150/>`_.
 To install for current user:
 
 .. code-block:: shell
 
-    pip3 install adafruit-circuitpython-pn7150
+    pip3 install electroniccats-circuitpython-pn7150
 
 To install system-wide (this may be required in some cases):
 
 .. code-block:: shell
 
-    sudo pip3 install adafruit-circuitpython-pn7150
+    sudo pip3 install electroniccats-circuitpython-pn7150
 
 To install in a virtual environment in your current project:
 
@@ -66,9 +61,9 @@ To install in a virtual environment in your current project:
 Usage Example
 =============
 
-This example demonstrates the library with the single built-in NeoPixel on the
-`Feather M0 Express <https://www.adafruit.com/product/3403>`_ and
-`Metro M0 Express <https://www.adafruit.com/product/3505>`_.
+This example demonstrates the library with the  PN7150
+`BomberCat <https://electroniccats.com/store/bombercat/>`_ and
+`HunterCat NFC <https://electroniccats.com/store/hunter-cat-nfc/>`_.
 
 .. code-block:: python
 
@@ -83,5 +78,3 @@ before contributing to help this project stay welcoming.
 Documentation
 =============
 
-For information on building library documentation, please check out
-`this guide <https://learn.adafruit.com/creating-and-sharing-a-circuitpython-library/sharing-our-docs-on-readthedocs#sphinx-5-1>`_.
